@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pensamento Computacional para Todos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a href="#conteudo-principal" class="sr-only">Pular para o conteúdo principal</a>
+
+  <header role="banner">
+    <div class="header-container">
+      <h1>Pensamento Computacional para Todos</h1>
+      
+      <div class="acessibilidade-bar" aria-label="Controles de Acessibilidade">
+        <button id="btn-diminuir" aria-label="Diminuir tamanho da fonte">A-</button>
+        <button id="btn-aumentar" aria-label="Aumentar tamanho da fonte">A+</button>
+        <button id="btn-tema" aria-label="Alternar entre modo claro e modo escuro">Modo Escuro 🌙</button>
+        <button id="btn-voz" aria-label="Ler ou parar leitura da página em voz alta">Ouvir Página 🔊</button>
+        <button id="btn-som-foco" aria-label="Ativar ou desativar áudio ao focar nos elementos">Áudio ao Focar: ON 🎧</button>
+      </div>
+    </div>
+
+    <nav aria-label="Navegação Principal">
+      <ul>
+        <li><a href="#introducao">Introdução</a></li>
+        <li><a href="#decomposicao">Decomposição</a></li>
+        <li><a href="#padroes">Reconhecimento de Padrões</a></li>
+        <li><a href="#abstracao">Abstração</a></li>
+        <li><a href="#algoritmos">Algoritmos</a></li>
+        <li><a href="#quiz">Quiz</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="conteudo-principal">
+    
+    <section id="introducao" tabindex="0" aria-labelledby="titulo-intro">
+      <h2 id="titulo-intro">1. Introdução ao Pensamento Computacional</h2>
+      <p>O <strong>Pensamento Computacional</strong> é uma estratégia de resolução de problemas baseada em técnicas da ciência da computação. Ele envolve definir problemas claramente e estruturar soluções para que possam ser executadas por pessoas ou computadores.</p>
+      
+      <h3>Importância na Escola e na Sociedade</h3>
+      <p>Na escola, desenvolve o raciocínio analítico, a autonomia e a capacidade de resolver problemas matemáticos e lógicos. Na sociedade, é essencial para lidar com dados e utilizar a tecnologia de forma crítica e criativa.</p>
+      
+      <h3>Onde é Utilizado?</h3>
+      <p>É aplicado na engenharia, medicina, planejamento de trânsito, criação de jogos, finanças e na organização da rotina diária.</p>
+    </section>
+
+    <section id="decomposicao" tabindex="0" aria-labelledby="titulo-decomposicao">
+      <h2 id="titulo-decomposicao">2. Decomposição</h2>
+      <p><strong>Definição:</strong> Dividir um problema complexo em partes menores e mais fáceis de gerenciar.</p>
+      <p><strong>Explicação:</strong> Resolver uma etapa pequena por vez reduz a complexidade geral e ajuda a focar na solução gradual.</p>
+      
+      <div class="exemplos-box">
+        <h3>Exemplo do Cotidiano</h3>
+        <p>Planejar uma viagem: a tarefa é dividida em comprar passagens, reservar hotel, arrumar as malas e planejar o roteiro.</p>
+        
+        <h3>Exemplo na Informática</h3>
+        <p>Desenvolvimento de um e-commerce: o projeto é dividido em cadastro de produtos, carrinho de compras, pagamento e sistema de entregas.</p>
+      </div>
+    </section>
+
+    <section id="padroes" tabindex="0" aria-labelledby="titulo-padroes">
+      <h2 id="titulo-padroes">3. Reconhecimento de Padrões</h2>
+      <p><strong>Definição:</strong> Encontrar semelhanças, tendências ou repetições dentro de um problema ou em dados.</p>
+      <p><strong>Explicação:</strong> Ao notar um padrão, reutilizamos soluções anteriores sem ter que aprender tudo do zero.</p>
+      
+      <div class="exemplos-box">
+        <h3>Exemplo do Cotidiano</h3>
+        <p>Reconhecer que em determinados horários do dia o trânsito está mais lento e escolher um caminho alternativo antecedendo o engarrafamento.</p>
+        
+        <h3>Exemplo na Programação</h3>
+        <p>Usar laços de repetição (como <code>for</code> e <code>while</code>) para automatizar o envio de emails para centenas de clientes.</p>
+      </div>
+    </section>
+
+    <section id="abstracao" tabindex="0" aria-labelledby="titulo-abstracao">
+      <h2 id="titulo-abstracao">4. Abstração</h2>
+      <p><strong>Definição:</strong> Focar nos detalhes fundamentais e ignorar informações irrelevantes para a solução do problema.</p>
+      <p><strong>Explicação:</strong> A abstração elimina ruídos e ajuda a manter a clareza sobre o objetivo principal.</p>
+      
+      <div class="exemplos-box">
+        <h3>Exemplo Prático</h3>
+        <p>Um aplicativo de GPS exibe linhas e nomes de ruas para o motorista, ocultando detalhes como a cor das casas ou árvores.</p>
+        
+        <h3>Importância</h3>
+        <p>Evita a sobrecarga de dados e permite a criação de modelos simplificados reutilizáveis.</p>
+      </div>
+    </section>
+
+    <section id="algoritmos" tabindex="0" aria-labelledby="titulo-algoritmos">
+      <h2 id="titulo-algoritmos">5. Elaboração de Algoritmos</h2>
+      <p><strong>Definição:</strong> Criar um conjunto ordenado de instruções passo a passo para resolver um problema.</p>
+      <p><strong>Como funciona:</strong> Processa as entradas (dados iniciais), executa os passos em ordem e produz uma saída esperada.</p>
+      
+      <div class="exemplos-box">
+        <h3>Exemplo em Linguagem Natural (Troca de Lâmpada)</h3>
+        <ol>
+          <li>Desligar o interruptor de luz.</li>
+          <li>Retirar a lâmpada queimada.</li>
+          <li>Enroscar a lâmpada nova.</li>
+          <li>Ligar o interruptor.</li>
+        </ol>
+        
+        <h3>Exemplo em Pseudocódigo</h3>
+        <pre><code>INICIO
+  Passo 1: Ler Nota1, Nota2
+  Passo 2: Média = (Nota1 + Nota2) / 2
+  Passo 3: Se Média >= 7 Então
+             Exibir "Aprovado"
+           Senão
+             Exibir "Recuperação"
+  Passo 4: FimSe
+FIM</code></pre>
+      </div>
+    </section>
+
+    <section id="quiz" tabindex="0" aria-labelledby="titulo-quiz">
+      <h2 id="titulo-quiz">6. Quiz Interativo</h2>
+      <p>Teste seus conhecimentos sobre os quatro pilares do Pensamento Computacional:</p>
+      <form id="quiz-form">
+        <fieldset>
+          <legend>Qual pilar é focado em ignorar detalhes desnecessários?</legend>
+          <label><input type="radio" name="q1" value="A"> Decomposição</label><br>
+          <label><input type="radio" name="q1" value="B"> Abstração</label><br>
+          <label><input type="radio" name="q1" value="C"> Algoritmos</label>
+        </fieldset>
+        <button type="button" id="btn-quiz">Verificar Resposta</button>
+      </form>
+      <p id="quiz-resultado" aria-live="polite" style="font-weight: bold; margin-top: 10px;"></p>
+    </section>
+
+  </main>
+
+  <button id="btn-topo" aria-label="Voltar ao topo da página">⬆ Topo</button>
+
+  <footer role="contentinfo">
+    <p>Desenvolvido por: Integrantes do Grupo.</p>
+    <p>Projeto Acadêmico — Acessibilidade e Pensamento Computacional.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
